@@ -2,8 +2,8 @@ import express from "express";
 import cors from "cors";
 import bodyParser from "body-parser";
 import dotenv from "dotenv";
-//import recruiterRouter from "./routes/product.js";
-import { pool } from "./database/db.js";
+import { menuRouter } from "./routes/menusRouter.js";
+import { pool } from "./models/db.js";
 
 const app = express();
 
@@ -16,9 +16,9 @@ dotenv.config();
 const port = Number(process.env.PORT) || 4000;
 
 //Routes
-//app.use("/product", professionalRouter);
+app.use("/menu", menuRouter);
 
-//Connect to elephantSQL
+//Connect to Database
 const connectDb = async () => {
   try {
     await pool.connect();
