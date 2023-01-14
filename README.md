@@ -17,7 +17,7 @@ Method | Endpoint | Description | Query Parameters | Body | Response
 ------ | -------- | ----------- | ---------------- | -----| -------
 GET    | /menu    | get all menu data |  |  | { data: [arry data]}
 
-## migrate data 
+## Migrate data 
 (https://github.com/thanakornboonlar/menubackoffice-test/blob/main/menus.sql)
 
 
