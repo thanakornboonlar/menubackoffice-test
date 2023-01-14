@@ -116,7 +116,7 @@ export default function AccountPage() {
                   fullWidth
                   size="small"
                 >
-                  <MenuItem key={1} value={"Senior"}>
+                  <MenuItem key={0} value={"Lead"}>
                     Lead
                   </MenuItem>
                   <MenuItem key={1} value={"Senior"}>
