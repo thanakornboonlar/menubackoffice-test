@@ -10,4 +10,4 @@ cd client
 npm install 
 npm start
 
-mockup data
+# mockup data (https://github.com/thanakornboonlar/menubackoffice-test/blob/main/menus.sql)
